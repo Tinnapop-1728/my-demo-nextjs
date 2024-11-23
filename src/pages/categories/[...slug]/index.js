@@ -1,6 +1,6 @@
 import { useRouter } from "next/router"
 
-export default function categories() {
+export default function Categories() {
     const router = useRouter();
     const {slug} = router.query;
 
